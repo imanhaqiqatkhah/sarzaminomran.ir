@@ -1,4 +1,4 @@
-import Particles from "react-particles"
+import Particles from "react-tsparticles"
 import { loadSlim } from "tsparticles-slim"
 import React, { useCallback } from "react"
 
@@ -43,7 +43,7 @@ const ParticlesContainer = () => {
             },
           },
         },
-        particles: {
+        tsparticles: {
           color: {
             value: "#e68e2e",
           },
