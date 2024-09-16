@@ -90,7 +90,6 @@ const aboutData = [
 ]
 
 // components
-import Avatar3 from "../../components/Avatar3"
 import Circles from "../../components/Circles"
 
 // framer motion
