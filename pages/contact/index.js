@@ -1,6 +1,3 @@
-// components
-import Circles from "../../components/Circles"
-
 // icons
 import { BsArrowLeft } from "react-icons/bs"
 

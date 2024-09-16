@@ -8,7 +8,7 @@ const ParticlesContainer = () => {
     await loadSlim(engine)
   }, [])
 
-  const particlesLoaded = useCallback(async (container) => {}, [])
+  const particlesLoaded = useCallback(async () => {}, [])
   return (
     <Particles
       className="w-full h-full absolute translate-z-0"
