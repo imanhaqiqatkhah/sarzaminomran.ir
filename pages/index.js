@@ -12,7 +12,7 @@ import { fadeIn } from "../variants"
 
 const Home = () => {
   return (
-    <div dir="rtl" className="bg-primary/80 h-full  ">
+    <div dir="rtl" className="bg-primary/80 h-full font-yekan">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-primary/30 to-primary/10 ">
         <div className="text-center flex flex-col justify-center xl:pt-10 xl:text-right h-full container mx-auto pt-12">

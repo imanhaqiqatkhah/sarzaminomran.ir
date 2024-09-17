@@ -20,7 +20,7 @@ export const serviceData = [
     icon: <RxPencil2 />,
     title: "نظارت بر ساخت و اجرا",
     description:
-      "نترل کیفیت و نظارت بر عملیات ساخت‌وساز، اطمینان از رعایت استانداردها و مقررات ایمنی",
+      "کنترل کیفیت و نظارت بر عملیات ساخت‌وساز، اطمینان از رعایت استانداردها و مقررات ایمنی",
   },
   {
     icon: <RxDesktop />,
@@ -84,8 +84,8 @@ const ServiceSlider = () => {
               <div className="text-4xl text-amber-500 mb-4">{item.icon}</div>
               {/* title & desc */}
               <div className="mb-8 text-justify">
-                <div className="mb-2 text-lg ">{item.title}</div>
-                <p className="max-w-[350px] leading-normal">
+                <div className="mb-2 text-xl ">{item.title}</div>
+                <p className="max-w-[350px] leading-normal ">
                   {item.description}
                 </p>
               </div>

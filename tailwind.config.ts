@@ -22,6 +22,9 @@ const config: Config = {
       xl: "1200px",
     },
     extend: {
+      fontFamily: {
+        yekan: ["Yekan", "sans-serif"], // after you font, add some fonts separated by commas to handle fallback.
+      },
       colors: {
         primary: "#131424",
         secondary: "#393A47",

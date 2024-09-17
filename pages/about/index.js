@@ -104,7 +104,7 @@ const About = () => {
   console.log(index)
 
   return (
-    <div className="h-full w-full bg-primary/30 py-32 text-center xl:text-right">
+    <div className="h-full w-full bg-primary/30 py-32 text-center xl:text-right font-yekan">
       <Circles />
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 mt-10 xl:mt-16">
         {/* text */}

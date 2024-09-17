@@ -19,6 +19,11 @@
 }
 
 @layer base {
+  @font-face {
+    font-family: 'Yekan';
+    src: url('../styles//Yekan.ttf') format('TTF'), ;
+  }
+
   body {
     @apply overflow-hidden leading-relaxed;
   }
