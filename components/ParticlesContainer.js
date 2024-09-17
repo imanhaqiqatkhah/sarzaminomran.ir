@@ -43,7 +43,7 @@ const ParticlesContainer = () => {
             },
           },
         },
-        tsparticles: {
+        particles: {
           color: {
             value: "#e68e2e",
           },
