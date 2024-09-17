@@ -1,22 +1,5 @@
 import React, { useState } from "react"
 
-// icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-} from "react-icons/fa"
-
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si"
-
 //  data
 const aboutData = [
   {
@@ -71,19 +54,9 @@ const aboutData = [
     info: [
       {
         title: "Web Development",
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
-        ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
@@ -228,19 +201,6 @@ const About = () => {
                   <div className="font-light mb-2 md:mb-0 ">{item.title}</div>
                   <div className="hidden md:flex"></div>
                   <div>{item.stage}</div>
-                  <div className="flex gap-x-4 ">
-                    {/* icons */}
-                    {item.icons?.map((icon, itemIndex) => {
-                      return (
-                        <div
-                          key={itemIndex}
-                          className="text-2xl transition-all duration-500 text-white"
-                        >
-                          {icon}
-                        </div>
-                      )
-                    })}
-                  </div>
                 </div>
               )
             })}
