@@ -34,7 +34,7 @@ const config: Config = {
         explosion: 'url("https://i.postimg.cc/gr9xmpxf/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        site: 'url("https://pouch.jumpshare.com/preview/ym-gy8Hd9qf4uF1cC_FAIrYLgxkew5lTlK4TB8zj07967FEyAkfoGPBO9VztG-rexZaOqbpHO7wkK8iQkrfjxtqh-b_RHCRH6faTRlASiXA")',
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",
