@@ -6,7 +6,7 @@ const Avatar2 = () => {
     <div className="lg:hidden mx-5">
       <Image
         alt=""
-        src={"/favpng_civil-engineering-surveyor.png"}
+        src={"./favpng_civil-engineering-surveyor.png"}
         width={110}
         height={100}
       />
