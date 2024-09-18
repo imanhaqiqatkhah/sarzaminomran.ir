@@ -5,19 +5,19 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "../public/thumb1.jpg",
+          path: "https://i.postimg.cc/cJjd8SWC/thumb1.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb2.jpg",
+          path: "https://i.postimg.cc/QCgDPKTK/thumb2.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb3.jpg",
+          path: "https://i.postimg.cc/1RDy42jR/thumb3.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb4.jpg",
+          path: "https://i.postimg.cc/tCyp6kK3/thumb4.jpg",
         },
       ],
     },
@@ -25,19 +25,19 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "../public/thumb4.jpg",
+          path: "https://i.postimg.cc/tCyp6kK3/thumb4.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb1.jpg",
+          path: "https://i.postimg.cc/cJjd8SWC/thumb1.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb2.jpg",
+          path: "https://i.postimg.cc/QCgDPKTK/thumb2.jpg",
         },
         {
           title: "title",
-          path: "../public/thumb3.jpg",
+          path: "https://i.postimg.cc/1RDy42jR/thumb3.jpg",
         },
       ],
     },

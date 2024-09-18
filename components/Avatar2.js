@@ -6,7 +6,9 @@ const Avatar2 = () => {
     <div className="lg:hidden mx-5">
       <Image
         alt=""
-        src={"../public/favpng_civil-engineering-surveyor.png"}
+        src={
+          "https://i.postimg.cc/PJJNn4dv/favpng-civil-engineering-surveyor.png"
+        }
         width={110}
         height={100}
       />

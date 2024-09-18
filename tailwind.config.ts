@@ -31,10 +31,10 @@ const config: Config = {
         accent: "#F13024",
       },
       backgroundImage: {
-        explosion: 'url("../public/bg-explosion.png")',
-        circles: 'url("../public/bg-circles.png")',
-        circleStar: 'url(" ../public/circle-star.svg")',
-        site: 'url("../public/site-bg.svg")',
+        explosion: 'url("https://i.postimg.cc/gr9xmpxf/bg-explosion.png")',
+        circles: 'url("/bg-circles.png")',
+        circleStar: 'url("/circle-star.svg")',
+        site: 'url("/site-bg.svg")',
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",
