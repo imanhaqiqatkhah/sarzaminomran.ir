@@ -7,7 +7,7 @@ const Avatar2 = () => {
       <Image
         alt=""
         src={
-          "https://i.postimg.cc/PJJNn4dv/favpng-civil-engineering-surveyor.png"
+          "https://i.postimg.cc/h4MpnpZy/favpng-civil-engineering-surveyor.png"
         }
         width={110}
         height={100}

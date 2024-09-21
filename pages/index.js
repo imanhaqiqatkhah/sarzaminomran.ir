@@ -15,9 +15,9 @@ const Home = () => {
     <div dir="rtl" className="bg-primary/80 h-full font-yekan">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-primary/30 to-primary/10 ">
-        <div className="text-center flex flex-col justify-center xl:pt-10 xl:text-right h-full container mx-auto pt-12">
+        <div className="text-center flex flex-col justify-center xl:pt-10 xl:text-right h-full container mx-auto pt-20">
           {/* title */}
-          <div className="flex justify-center xl:flex-none xl:justify-normal my-7 mt-8">
+          <div className="flex justify-center xl:flex-none xl:justify-normal my-7">
             <motion.h1
               variants={fadeIn("down", 0.2)}
               initial="hidden"
@@ -35,7 +35,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-lg mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-lg mx-auto xl:mx-0 mt-[20px] xl:mb-16"
           >
             هدف ما در سرزمین عمران، ارائه راهکارهای جامع و نوآورانه در زمینه
             نقشه‌برداری و طراحی مهندسی است، ما آماده‌ایم تا با تلاش و تعهد،
@@ -44,7 +44,7 @@ const Home = () => {
             خواهد کرد.
           </motion.p>
           {/* btn */}
-          <div className="flex justify-center xl:hidden relative ">
+          <div className="flex justify-center xl:hidden relative my-4">
             <ProjectsBtn />
           </div>
           <motion.div
@@ -52,7 +52,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex "
+            className="hidden xl:flex"
           >
             <ProjectsBtn />
           </motion.div>
@@ -71,7 +71,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[620px] max-h-[550px] absolute -bottom-32 lg:bottom-0 lg:left-[8%]"
+          className="w-full h-full max-w-[620px] max-h-[550px] absolute -bottom-7 lg:left-[8%]"
         >
           <Avatar />
         </motion.div>

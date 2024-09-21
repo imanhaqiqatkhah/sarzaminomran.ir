@@ -33,8 +33,8 @@ const config: Config = {
       backgroundImage: {
         explosion: 'url("https://i.postimg.cc/gr9xmpxf/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
-        site: 'url("https://pouch.jumpshare.com/preview/ym-gy8Hd9qf4uF1cC_FAIrYLgxkew5lTlK4TB8zj07967FEyAkfoGPBO9VztG-rexZaOqbpHO7wkK8iQkrfjxtqh-b_RHCRH6faTRlASiXA")',
+        circleStar: 'url("https://i.postimg.cc/SsSxpSjv/circle-star.png")',
+        site: 'url("https://i.postimg.cc/Qtfx82Tx/site-bg.png")',
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",
